@@ -1,6 +1,7 @@
 # Configure GNS3 and appliances for network simulation
 
 Unfortunately, I do not have access to Cisco appliance licenses. Instead, I have chosen open-source solutions and evaluation versions of Windows Server and Windows 10 for my GNS3 lab.
+
 ## Chosen Appliances:
 
 - **Open vSwitch** – Virtual switch for advanced networking.
