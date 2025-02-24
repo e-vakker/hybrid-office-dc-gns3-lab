@@ -38,7 +38,8 @@
 
 * Repeat the same steps as for the first router.
 
-> [!Tip] Ensure you create a snapshot before significant changes
+> [!Tip]
+> Ensure you create a snapshot before significant changes
 > 1. Go to **File > Manage Snapshots** in GNS3
 > 2. Click "**Create Snapshot**"
 
