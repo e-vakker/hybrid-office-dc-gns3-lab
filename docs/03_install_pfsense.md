@@ -27,7 +27,6 @@
 3. Disable **DHCP**.
 
 ## Finalise Installation
-
 1. Confirm settings for **em1 (LAN Interface)**.
 2. Click **Continue**.
 3. Click **Install CE**.
