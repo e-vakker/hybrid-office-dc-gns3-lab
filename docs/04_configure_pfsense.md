@@ -93,7 +93,7 @@ Create identical firewall rules on both firewalls.
 2. Verify that the CARP status is correct on both firewalls.
 
 ![CARP Status](04/status-carp.png)
-![CARP Status 2](docs/04/status-carp-2.png)
+![CARP Status 2](04/status-carp-2.png)
 
 ## Rename LAN Port
 
