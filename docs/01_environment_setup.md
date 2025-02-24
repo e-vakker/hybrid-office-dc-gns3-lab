@@ -1,11 +1,9 @@
 # Deploy a Virtualised Lab Environment on Cloud
 
----
 To get started, you need a server on-premises or in the cloud. I considered buying a cheap old server, but I decided to use a cloud solution because it was loud and I did not have space for it. Each primary cloud provider offers initial credits for testing, which should be enough to experiment with the lab. I registered with AWS, Azure, and Google and decided to stay with Google because they provided a generous 600€ credit for three months upon registration. If you have an x86 machine with at least 16GB of RAM, I suggest running it on your hardware. Otherwise, the cloud is a solid alternative.
 
 ## Google Cloud VM Setup
 
----
 To create a VM instance, I used the `gcloud` command:
 ``` sh
 gcloud compute instances create {Your VM-Instance name} \
@@ -34,14 +32,12 @@ Creating a VM instance through the Google Cloud Console is possible, but enablin
 
 ### Key Requirements for GNS3 Labs:
 
----
 - Nested Virtualisation.
 - Enable Display Device.
 - Opened the RDP port in the Google Cloud firewall.
 
 ### Cost Optimisation:
 
----
 - Network-tier standard (200GB for free).
 - Use Spot instances.
 - Manually stop your VM instance.
@@ -51,7 +47,6 @@ Creating a VM instance through the Google Cloud Console is possible, but enablin
 
 ### Basic commands:
 
----
 - SSH connection:
 	`gcloud compute ssh {VM-Instance} --zone={Your-Zone}`
 - Start the instance:
@@ -64,12 +59,10 @@ Creating a VM instance through the Google Cloud Console is possible, but enablin
 
 ## Configuration of Ubuntu server for GUI experience
 
----
 After deployment, the server has an SSH connection without a desktop environment. We must install several applications and dependencies to access it through RDP.
 
 ### Install Important Dependencies
 
----
 * Update & Upgrade the System:
 	`sudo apt update && sudo apt upgrade -y`
 * Install System Dependencies:
@@ -82,19 +75,17 @@ sudo apt install -y python3 python3-pip \
 	`sudo usermod -aG ubridge $USER`
 	`sudo usermod -aG libvirt,kvm $USER`
 
-> [!info]
+> [!Note]
 > Log out and back in for changes to take effect.
 
 ### Install Xfce  Desktop Environment
 
----
 ```sh
 sudo apt install xfce4 xfce4-goodies -y
 ```
 
 ### Install XRDP:
 
----
 * Install application:
 	`sudo apt install -y xrdp`
 * Add User to `ssl-cert` Group:
@@ -110,7 +101,6 @@ chmod +x ~/.xsession
 
 ### Install GNS3 and Additional Applications
 
----
 * Install GNS3 on Ubuntu:
 	`sudo add-apt-repository ppa:gns3/ppa -y`
 	`sudo apt install -y gns3-gui gns3-server`
@@ -128,12 +118,11 @@ sudo systemctl enable docker
 sudo systemctl start docker
 ```
 
-> [!info]
+> [!Note]
 > Log out and back in for changes to take effect.
 
 ## Troubleshooting Connection Issue
 
----
 If you encounter a problem with the connection, one possible issue could be incorrect login credentials.
 
 Through SSH connection, we can change and verify:
@@ -144,7 +133,6 @@ Through SSH connection, we can change and verify:
 
 ## Troubleshooting **0x204** Error with RDP
 
----
 1. Reboot the RDP client on your device and try to reconnect again.
 2. Check the status of xrdp and sesman:
 	`sudo systemctl status xrdp xrdp-sesman`
@@ -156,9 +144,9 @@ Through SSH connection, we can change and verify:
 	`sudo reboot`
 6. Check logs to identify the issue:
 	`sudo journalctl -u xrdp --no-pager | tail -50`
+
 ## Resources & References
 
----
 * Azure: https://azure.microsoft.com
 * Google Cloud: https://cloud.google.com
 * AWS: https://aws.amazon.com

@@ -1,18 +1,14 @@
 # Hybrid Office Data Center GNS3 Lab
 
----
 I have created a GNS3 lab to develop and enhance my system administration skills. My approach is to start with a foundational setup and gradually integrate more advanced technologies.
 
 Initially, I aim to create a small office with reliable core infrastructure and minimal appliances, focusing on essential networking and system administration concepts. I plan to expand it by imitating a data center site and adding a small branch office. 
 
 ## Current Topology
 
----
-![Topology](topology.png)
+![Topology](images/topology.png)
 
 ## Objectives
-
----
 
 | **#** | **Topic**                                                                     | Objectives                                                                                                                                                                     | **Status** |
 | ----- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
@@ -21,11 +17,8 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 
 ## Failover tests
 
----
-
 ## Resources & References
 
----
 * GNS3 Official Documentation: https://docs.gns3.com/
 * Microsoft Learn (Active Directory & Windows Server): https://learn.microsoft.com/en-us/
 * pfSense Documentation: https://docs.netgate.com/pfsense/en/latest/
@@ -33,5 +26,4 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 
 ## License
 
----
 [MIT License](LICENSE)
