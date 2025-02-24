@@ -61,7 +61,7 @@ iface eth0 inet static
 
 Create identical firewall rules on both firewalls.
 
-![Firewall Rules Sync](docs/04/firewall-rules-sync.png)
+![Firewall Rules Sync](04/firewall-rules-sync.png)
 
 ## Set Up High Availability
 
@@ -92,7 +92,7 @@ Create identical firewall rules on both firewalls.
 1. Navigate to **Status > CARP (Failover)**.
 2. Verify that the CARP status is correct on both firewalls.
 
-![CARP Status](docs/04/status-carp.png)
+![CARP Status](04/status-carp.png)
 ![CARP Status 2](docs/04/status-carp-2.png)
 
 ## Rename LAN Port
@@ -129,7 +129,7 @@ Create identical firewall rules on both firewalls.
 
 ### Final VLAN Configuration
 
-![VLAN Interfaces](docs/04/interfaces-vlans.png)
+![VLAN Interfaces](04/interfaces-vlans.png)
 
 ## Interface Assignments on the Primary Firewall
 
@@ -180,4 +180,4 @@ Repeat the interface assignment steps on the secondary firewall by navigating to
 
 ### Final CARP Settings
 
-![Firewall Virtual IPs](docs/04/firewall-virtual-ips.png)
+![Firewall Virtual IPs](04/firewall-virtual-ips.png)
