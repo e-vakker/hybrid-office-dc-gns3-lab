@@ -85,7 +85,7 @@ I recommend installing drivers for better performance. I chose Spice because VNC
 2. Select **Configure template**.
 3. Modify the template settings:
 	* **Console type** > Spice+agent
-	* ***CD/DVD** > Remove the **VirtIO ISO path.**
+	* **CD/DVD** > Remove the **VirtIO ISO path.**
 	* **Advanced** > Check **Use a linked base VM**
 	* Click **OK**.
 
