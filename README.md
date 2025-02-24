@@ -10,10 +10,11 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 
 ## Objectives
 
-| **#** | **Topic**                                                                     | Objectives                                                                                                                                                                     | **Status** |
-| ----- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- |
-| 1     | [Deploy a Virtualised Lab Environment on Cloud](docs/01_environment_setup.md) | - Deployed a Cloud VM with GNS3.<br>- Enabled nested virtualisation for running virtual appliances.<br>- Installed essential dependencies for GNS3, including QEMU and Docker. | Completed  |
-|       |                                                                               |                                                                                                                                                                                |            |
+| **#** | **Topic**                                                                         | Objectives                                                                                                                                                                             | **Status** |
+| ----- | --------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| 1     | [Deploy a Virtualised Lab Environment on Cloud](docs/01_environment_setup.md)     | - Deploy a Cloud VM with GNS3.<br>- Enable nested virtualisation for running virtual appliances.<br>- Install essential dependencies for GNS3, including QEMU and Docker.              | Completed  |
+| 2     | [Configure GNS3 and appliances for network simulation](docs/02_configure_gns3.md) | - Deploy Network Appliances Open vSwitch, pfSense, and WebTerm<br>- Configure Windows VM templates for Windows 10 and Windows Server 2022.<br>- Optimise Windows VMs with Guest Tools. | Completed  |
+|       |                                                                                   |                                                                                                                                                                                        |            |
 
 ## Failover tests
 
