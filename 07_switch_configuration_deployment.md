@@ -58,6 +58,7 @@
 ## Set Up the second Core Switch
 
 Below is an example shell script you can run on **Core-Switch2**. You can also execute each command manually:
+
 [set-up-second-core-switch.sh](/scripts/set-up-second-core-switch.sh)
 
 1. Open the console of **Core-Switch2**.
@@ -80,6 +81,7 @@ Below is an example shell script you can run on **Core-Switch2**. You can also e
 ## Set Up the First Access Switch
 
 Script for the first access switch:
+
 [set-up-first-access-switch.sh](/scripts/set-up-first-access-switch.sh)
 
 1. Open the console for **Access-Switch-1**.
@@ -100,6 +102,7 @@ Script for the first access switch:
 ## Set Up the Second Access Switch
 
 Script for the second access switch:
+
 [set-up-second-access-switch.sh](/scripts/set-up-second-access-switch.sh)
 
 1. Open the console for **Access-Switch-2**.
@@ -120,6 +123,7 @@ Script for the second access switch:
 ## Set Up the Third Access Switch
 
 Script for the third access switch:
+
 [set-up-third-access-switch.sh](/scripts/set-up-third-access-switch.sh)
 
 1. Open the console for **Access-Switch-3**.
