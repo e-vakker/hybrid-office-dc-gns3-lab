@@ -37,11 +37,11 @@ The primary purpose is to get access to the internet from end devices by forward
      ipconfig /renew
      ```
    - Confirm the changes with the provided screenshot:
-     ![[images/10/ipconfig-renew.png]]
+     ![ipconfig /renew output](images/10/ipconfig-renew.png)
 5. Verify DNS Resolution:  
    - In the terminal, execute:
      ```cmd
      nslookup google.com
      ```
    - Verify the output with the screenshot:
-     ![[images/10/nslookup.png]]
+     ![nslookup output](images/10/nslookup.png)
