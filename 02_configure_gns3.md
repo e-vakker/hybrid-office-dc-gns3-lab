@@ -95,6 +95,6 @@ I recommend installing drivers for better performance. I chose Spice because VNC
 
 ## Resources & References
 
-* Windows 10 Evaluation: https://www.microsoft.com/en-us/software-download/windows10ISO
-* Windows 2022 Evaluation: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
-* Guest Tools Drivers: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/
+- Windows 10 Evaluation: https://www.microsoft.com/en-us/software-download/windows10ISO
+- Windows 2022 Evaluation: https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022
+- Guest Tools Drivers: https://fedorapeople.org/groups/virt/virtio-win/direct-downloads/stable-virtio/

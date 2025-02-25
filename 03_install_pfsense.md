@@ -35,7 +35,7 @@
 
 ## Configure the second Router
 
-* Repeat the same steps as for the first router.
+- Repeat the same steps as for the first router.
 
 > [!Tip]
 > Ensure you create a snapshot before significant changes
@@ -44,4 +44,4 @@
 
 ## Resources & References
 
-* pfSense Documentation: https://docs.netgate.com/pfsense/en/latest/
+- pfSense Documentation: https://docs.netgate.com/pfsense/en/latest/

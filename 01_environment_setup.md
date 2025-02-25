@@ -48,11 +48,17 @@ Creating a VM instance through the Google Cloud Console is possible, but enablin
 ### Basic commands:
 
 - SSH connection:
-	`gcloud compute ssh {VM-Instance} --zone={Your-Zone}`
+	``` sh
+	gcloud compute ssh {VM-Instance} --zone={Your-Zone}
+	```
 - Start the instance:
-	`gcloud compute instances start {VM-Instance} --zone={Your-Zone}
+	``` sh
+	gcloud compute instances start {VM-Instance} --zone={Your-Zone}
+	```
 - Stop the instance:
-	`gcloud compute instances stop {VM-Instance} --zone={Your-Zone}`
+	``` sh
+	gcloud compute instances stop {VM-Instance} --zone={Your-Zone}
+	```
 
 > [!TIP]
 > You can always increase your instance’s disk size, RAM, and CPU cores, but you cannot shrink them.
@@ -64,16 +70,20 @@ After deployment, the server has an SSH connection without a desktop environment
 ### Install Important Dependencies
 
 * Update & Upgrade the System:
-	`sudo apt update && sudo apt upgrade -y`
+	``` sh
+	sudo apt update && sudo apt upgrade -y
+	```
 * Install System Dependencies:
-```sh
-sudo apt install -y python3 python3-pip \
+	```sh
+	sudo apt install -y python3 python3-pip \
                     qemu qemu-kvm libvirt-daemon-system libvirt-clients \
                     bridge-utils ubridge dynamips
-```
+	```
 * Allow Non-Root Access to Networking:
-	`sudo usermod -aG ubridge $USER`
-	`sudo usermod -aG libvirt,kvm $USER`
+	``` sh
+	sudo usermod -aG ubridge $USER
+	sudo usermod -aG libvirt,kvm $USER
+	```
 
 > [!Note]
 > Log out and back in for changes to take effect.
@@ -87,36 +97,50 @@ sudo apt install xfce4 xfce4-goodies -y
 ### Install XRDP:
 
 * Install application:
-	`sudo apt install -y xrdp`
+	``` sh
+	sudo apt install -y xrdp
+	```
 * Add User to `ssl-cert` Group:
-	`sudo adduser $USER ssl-cert`
+	``` sh
+	sudo adduser $USER ssl-cert
+	```
 * Enable & Start XRDP:
-	`sudo systemctl enable xrdp`
-	`sudo systemctl start xrdp`
+	``` sh
+	sudo systemctl enable xrdp
+	sudo systemctl start xrdp
+	```
 * Set Xfce as the Default Session:
-``` sh
-echo "xfce4-session" > ~/.xsession
-chmod +x ~/.xsession
-```
+	``` sh
+	echo "xfce4-session" > ~/.xsession
+	chmod +x ~/.xsession
+	```
 
 ### Install GNS3 and Additional Applications
 
 * Install GNS3 on Ubuntu:
-	`sudo add-apt-repository ppa:gns3/ppa -y`
-	`sudo apt install -y gns3-gui gns3-server`
+	``` sh
+	sudo add-apt-repository ppa:gns3/ppa -y
+	sudo apt install -y gns3-gui gns3-server
+	```
 * Install VNC Viewer:
-	`sudo apt install -y tigervnc-viewer`
+	``` sh
+	sudo apt install -y tigervnc-viewer
+	```
 * Install Spice for Remote Display:
-	`sudo apt install -y spice-client-gtk spice-vdagent virt-viewer`
+	``` sh
+	sudo apt install -y spice-client-gtk spice-vdagent virt-viewer
+	```
 * Install Firefox:
-	`sudo apt install -y firefox`
+	``` sh
+	sudo apt install -y firefox
+	```
 * Install Docker:
-``` sh
-sudo apt install -y docker.io
-sudo usermod -aG docker $USER
-sudo systemctl enable docker
-sudo systemctl start docker
-```
+	``` sh
+	sudo apt install -y docker.io
+	sudo usermod -aG docker $USER
+	sudo systemctl enable docker
+	sudo systemctl start docker
+	```
 
 > [!Note]
 > Log out and back in for changes to take effect.
@@ -126,29 +150,43 @@ sudo systemctl start docker
 If you encounter a problem with the connection, one possible issue could be incorrect login credentials.
 
 Through SSH connection, we can change and verify:
-* Current username:
-	`whoami`
-* Change password:
-	`sudo passwd <your_username>`
+1. Current username:
+	``` sh
+	whoami
+	```
+2. Change password:
+	``` sh
+	sudo passwd <your_username>
+	```
 
 ## Troubleshooting **0x204** Error with RDP
 
 1. Reboot the RDP client on your device and try to reconnect again.
 2. Check the status of xrdp and sesman:
-	`sudo systemctl status xrdp xrdp-sesman`
+	``` sh
+	sudo systemctl status xrdp xrdp-sesman
+	```
 3. If there are errors, restart the services:
-	`sudo systemctl restart xrdp xrdp-sesman`
+	``` sh
+	sudo systemctl restart xrdp xrdp-sesman
+	```
 4. If you had an active `gns-server` after logging in, terminate it:
-	`sudo pkill -f gns3`
+	``` sh
+	sudo pkill -f gns3
+	```
 5. Try rebooting the system:
-	`sudo reboot`
+	``` sh
+	sudo reboot
+	```
 6. Check logs to identify the issue:
-	`sudo journalctl -u xrdp --no-pager | tail -50`
+	``` sh
+	sudo journalctl -u xrdp --no-pager | tail -50
+	```
 
 ## Resources & References
 
-* Azure: https://azure.microsoft.com
-* Google Cloud: https://cloud.google.com
-* AWS: https://aws.amazon.com
-* RDP client Windows: https://apps.microsoft.com/detail/9n1f85v9t8bn
-* RDP client MacOS: https://apps.apple.com/np/app/windows-app/id1295203466
+- Azure: https://azure.microsoft.com
+- Google Cloud: https://cloud.google.com
+- AWS: https://aws.amazon.com
+- RDP client Windows: https://apps.microsoft.com/detail/9n1f85v9t8bn
+- RDP client MacOS: https://apps.apple.com/np/app/windows-app/id1295203466

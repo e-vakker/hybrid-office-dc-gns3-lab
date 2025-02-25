@@ -6,7 +6,7 @@ We will create permissive firewall rules for testing purposes. These rules allow
 
 To simplify management, first create an interface group that includes all relevant VLAN interfaces.
 
-**On the Primary Firewall (10.0.5.2):**
+### On the Primary Firewall (10.0.5.2):
 
 1. Navigate to **Interfaces > Assignments > Interface Groups**.
 2. Click **Add**.
@@ -26,7 +26,7 @@ Repeat the same steps on the secondary firewall.
 
 Configure a rule to allow all traffic on the created interface group.
 
-**On Both Firewalls:**
+### On Both Firewalls:
 
 1. Navigate to **Firewall > Rules** and select the `VLAN_GROUP` interface.
 2. Click **Add**.
