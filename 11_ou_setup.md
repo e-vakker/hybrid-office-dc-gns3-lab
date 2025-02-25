@@ -35,4 +35,4 @@ DC=lab-test, DC=local
 
 ## Final result
 
-![ou result](ou-result.png)
+![ou result](images/11/ou-result.png)
