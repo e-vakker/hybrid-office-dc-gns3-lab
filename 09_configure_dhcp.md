@@ -62,13 +62,13 @@ Get-DhcpServerv4Scope
 
 ## Test DHCP Functionality
 
-8. On the GNS3 canvas, add a Windows appliance.
-9. Connect the appliance to the **eth2** interface on **Access-Switch-1**.
-10. Open PowerShell on the Windows appliance and run:
+1. On the GNS3 canvas, add a Windows appliance.
+2. Connect the appliance to the **eth2** interface on **Access-Switch-1**.
+3. Open PowerShell on the Windows appliance and run:
    ```powershell
    ipconfig
    ```
-11. Verify that the workstation receives an IP address from the DHCP server.
+4. Verify that the workstation receives an IP address from the DHCP server.
 
 ![IP Configuration Result](images/08/ipconfig-result.png)
 
