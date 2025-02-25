@@ -19,6 +19,7 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 | 5     | [Create and configure MGMT_VLAN](05_configure_mgmt_vlan.md)                        | - Create a new VLAN (VLAN 99).<br>- Create a CARP VIP on VLAN_MGMT.                                                                                                                                                                                                | Completed  |
 | 6     | [Set up Permissive Firewall Rules](06_set_up_firewall_rules.md)                    | - Create an Interface Group.<br>- Add a Firewall Rule                                                                                                                                                                                                              | Completed  |
 | 7     | [Deploy and Configure Switches ](07_switch_configuration_deployment.md)            | - Deploy Core and Access Switches.<br>- Enable STP for Redundancy.<br>- Configure VLAN Trunks and Access Ports.<br>- Interconnect Switches.<br>- Configure Web-term Static IP.<br>- Disable MGMT Interface of pfSense                                              | Completed  |
+| 8     | [Deploy DC-01](08_dc_01_deployment.md)                                             | - Rename the Server.<br>- Install Active Directory Domain Services (AD DS).<br>- Promote to Domain Controller.                                                                                                                                                     | Completed  |
 ## Failover tests
 
 ## Repository Structure
@@ -27,7 +28,7 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 ## Resources & References
 
 - GNS3 Official Documentation: https://docs.gns3.com/
-- Microsoft Learn (Active Directory & Windows Server): https://learn.microsoft.com/en-us/
+- Microsoft Learn (Active Directory & Windows Server): https://learn.microsoft.com/en-us/windows-server/
 - pfSense Documentation: https://docs.netgate.com/pfsense/en/latest/
 - Open vSwitch Documentation: https://docs.openvswitch.org/
 
