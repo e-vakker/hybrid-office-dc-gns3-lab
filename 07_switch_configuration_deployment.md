@@ -2,7 +2,7 @@
 
 ## GNS3 Canvas 
 
-![[images/07/gns-3-canvas.png]]
+<img src="images/07/gns-3-canvas.png" style="max-width:600px; height:auto;">
 
 ## Set Up the First Core Switch
 
@@ -139,7 +139,7 @@ Script for the third access switch:
 
 ## Interconnecting Core and Access Switches
 
-![GNS3 Canvas - Additional Switch Layout](images/07/gns-3-canvas-2.png)
+<img src="images/07/gns-3-canvas-2.png" style="max-width:600px; height:auto;">
 
 1. Core-Switch-1:
    - `eth0` > Connect to **Firewall-Router-Primary (em3)**
