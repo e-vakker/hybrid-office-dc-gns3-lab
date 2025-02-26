@@ -57,45 +57,36 @@ My target is to complete **70%** of defined objectives.
 | 1     | Primary Firewall and Core Switch Failure | - Simulate a Failure.<br>- Validate HA Functionality | Planned |
 
 ## Repository Structure
-``` plaintext
+``` plain
 hybrid-office-dc-gns3-lab/
-│── docs/
+├── docs/
 │   ├── new-users.csv
-│   ├── topology.png
-│── images/
-│   ├── 04/
-│   ├── 07/
-│   ├── 08/
-│   ├── 10/
-│   ├── 11/
-│   ├── 12/
-│   ├── 13/
-│   ├── 14/
-│── scripts/
+│   └── topology.png
+├── images/
+├── scripts/
 │   ├── configure-dhcp-scopes-dc-01.ps1
 │   ├── create-groups.ps1
 │   ├── new-users-import.ps1
 │   ├── set-up-first-access-switch.sh
 │   ├── set-up-second-access-switch.sh
 │   ├── set-up-second-core-switch.sh
-│   ├── set-up-third-access-switch.sh
-│── deployment/
-│   ├── 01_deploy_virtual_lab_environment.md
-│   ├── 02_deploy_gns3_appliances.md
-│   ├── 03_install_configure_pfsense.md
-│   ├── 04_setup_pfsense_vlan_trunking.md
-│   ├── 05_setup_mgmt_vlan.md
-│   ├── 06_deploy_permissive-firewall_rules.md
-│   ├── 07_deploy_configur_access_switches.md
-│   ├── 08_deploy_configure_dc01.md
-│   ├── 09_configure_dhcp.md
-│   ├── 10_configure_dns_forwarding_dc01.md
-│   ├── 11_configure_ou.md
-│   ├── 12_join_pcs_create_sers_in_domain.md
-│   ├── 13_configure_ad_security_groups.md
-│   ├── 14_configure_basic_gpos.md
-│── LICENSE
-│── README.md
+│   └── set-up-third-access-switch.sh
+├── 01_deploy_virtual_lab_environment.md
+├── 02_deploy_gns3_appliances.md
+├── 03_install_configure_pfsense.md
+├── 04_setup_pfsense_vlan_trunking.md
+├── 05_setup_mgmt_vlan.md
+├── 06_deploy_permissive-firewall_rules.md
+├── 07_deploy_configur_access_switches.md
+├── 08_deploy_configure_dc01.md
+├── 09_configure_dhcp.md
+├── 10_configure_dns_forwarding_dc01.md
+├── 11_configure_ou.md
+├── 12_join_pcs_create_sers_in_domain.md
+├── 13_configure_ad_security_groups.md
+├── 14_configure_basic_gpos.md
+├── LICENSE
+└── README.md
 ```
 
 ## Resources & References
