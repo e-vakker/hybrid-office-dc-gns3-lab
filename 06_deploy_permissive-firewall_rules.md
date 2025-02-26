@@ -1,4 +1,4 @@
-# Set Up Permissive Firewall Rules
+# Deploy Permissive Firewall Rules
 
 We will create permissive firewall rules for testing purposes. These rules allow all traffic through the `VLAN_GROUP`, and we gradually harden them as later.
 

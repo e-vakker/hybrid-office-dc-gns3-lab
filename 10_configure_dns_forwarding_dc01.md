@@ -1,4 +1,4 @@
-# DNS Forwarding Setup (DC01)
+# Configure DNS Forwarding on DC-01
 
 The primary purpose is to get access to the internet from end devices by forwarding external queries to Google DNS.
 

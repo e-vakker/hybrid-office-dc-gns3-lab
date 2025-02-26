@@ -1,4 +1,4 @@
-# Create and Configure MGMT_VLAN
+# Setup Management VLAN (MGMT_VLAN)
 
 ## Create a New VLAN on the Primary Firewall
 

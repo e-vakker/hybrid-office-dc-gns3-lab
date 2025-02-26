@@ -1,4 +1,4 @@
-# Switch Configuration
+# Deploy & Configure Core and Access Switches
 
 ## GNS3 Canvas 
 

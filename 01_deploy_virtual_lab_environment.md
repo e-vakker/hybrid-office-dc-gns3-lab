@@ -1,4 +1,4 @@
-# Deploy a Virtualised Lab Environment on Cloud
+# Deploy Virtual Lab Environment on Cloud
 
 To get started, you need a server on-premises or in the cloud. I considered buying a cheap old server, but I decided to use a cloud solution because it was loud and I did not have space for it. Each primary cloud provider offers initial credits for testing, which should be enough to experiment with the lab. I registered with AWS, Azure, and Google and decided to stay with Google because they provided a generous 600€ credit for three months upon registration. If you have an x86 machine with at least 16GB of RAM, I suggest running it on your hardware. Otherwise, the cloud is a solid alternative.
 

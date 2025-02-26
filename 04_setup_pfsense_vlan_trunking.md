@@ -1,4 +1,4 @@
-# Configure pfSense for High Availability & VLAN Trunking
+# Setup pfSense HA & VLAN Trunking
 
 ## Assign IP to LAN Interface
 

@@ -1,4 +1,4 @@
-# Add Security groups in Active Directory
+# Configure Active Directory Security Groups
 
 ## Creating Security Groups in AD
 

@@ -1,4 +1,4 @@
-# Configure GNS3 and appliances for network simulation
+# Deploy GNS3 Appliances for Network Simulation
 
 Unfortunately, I do not have access to Cisco appliance licenses. Instead, I have chosen open-source solutions and evaluation versions of Windows Server and Windows 10 for my GNS3 lab.
 

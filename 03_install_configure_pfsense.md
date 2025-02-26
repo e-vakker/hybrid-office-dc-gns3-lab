@@ -1,4 +1,4 @@
-# Install and Configure pfSense Firewall
+# Install & Configure pfSense Firewall
 
 ## Add pfSense and Cloud NAT to the GNS3 Canvas:
 

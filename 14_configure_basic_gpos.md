@@ -1,4 +1,4 @@
-# Create Basic GPOs
+# Configure Basic Group Policy Objects (GPOs)
 
 ## Block Firewall on Domain
 

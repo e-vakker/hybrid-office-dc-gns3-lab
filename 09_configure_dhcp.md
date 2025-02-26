@@ -1,4 +1,4 @@
-# Configure DHCP Server and DHCP Relay
+# Configure DHCP Server & Relay
 
 ## Install the DHCP Server
 

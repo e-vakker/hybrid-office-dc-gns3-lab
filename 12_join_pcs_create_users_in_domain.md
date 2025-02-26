@@ -1,4 +1,4 @@
-# Add Computers and Users to the Domain
+# Join Computers & Create User Accounts in Domain
 
 ## Move the Windows 10 appliances to the canvas
 

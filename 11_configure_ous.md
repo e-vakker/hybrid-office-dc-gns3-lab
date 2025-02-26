@@ -1,4 +1,4 @@
-# Organisational Units Setup
+# Configure Organisational Units (OUs)
 
 ### OU structure
 

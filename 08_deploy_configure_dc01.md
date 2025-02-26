@@ -1,4 +1,4 @@
-# DC-01 deployment
+# Deploy & Configure Domain Controller (DC-01)
 
 ## Assign a Static IP Address
 ### GUI 
