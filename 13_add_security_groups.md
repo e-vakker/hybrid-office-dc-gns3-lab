@@ -49,9 +49,9 @@ We will assign users to various groups with different methods:
 6. Click **Check Names**. The name should resolve and become underlined.
 7. Click **OK**.
 
-![Active directory add to a group](images/13/ad-add-to-a-group.png)
+<img src="images/13/ad-add-to-a-group.png" width="600">
 
-![Selected groups](images/13/select-groups.png)
+<img src="images/13/select-groups.png" width="600">
 
 ### GUI (Adding Members to a Group's Properties)
 1. Open `dsa.msc`.
@@ -63,11 +63,11 @@ We will assign users to various groups with different methods:
 7. Click **Check Names**.
 8. Click **OK**.
 
-![AD staff properties](images/13/ad-staff-properties.png)
+<img src="images/13/ad-staff-properties.png" width="600">
 
-![Staff properties members](images/13/staff-properties-members.png)
+<img src="images/13/staff-properties-members.png" width="600">
 
-![properties memebers emter the object](images/13/properties-members-enter-the-object.png)
+<img src="images/13/properties-members-enter-the-object.png" width="600">
 
 ### GUI (Adding a User to Groups via User Properties)
 1. Open `dsa.msc`.
@@ -79,7 +79,7 @@ We will assign users to various groups with different methods:
 7. Click **Check Names**.
 8. Click **OK**.
 
-![](images/13/alice-white-properties.png)
+<img src="images/13/alice-white-properties.png" width="600">
 
 ### PowerShell Method
 

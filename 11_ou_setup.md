@@ -34,5 +34,4 @@ DC=lab-test, DC=local
 5. Recreate the OU Structure that you see above.
 
 ## Final result
-
-![ou result](images/11/ou-result.png)
+<img src="images/11/ou-result.png" width="600">

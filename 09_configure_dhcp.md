@@ -69,8 +69,7 @@ Get-DhcpServerv4Scope
    ipconfig
    ```
 4. Verify that the workstation receives an IP address from the DHCP server.
-
-![IP Configuration Result](images/08/ipconfig-result.png)
+<img src="images/08/ipconfig-result.png" width="600">
 
 ## Resources & References
 

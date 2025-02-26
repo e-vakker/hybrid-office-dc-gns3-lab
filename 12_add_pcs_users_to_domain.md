@@ -11,7 +11,7 @@
 	- HR PCs: Connect to Access-Switch-3 (VLAN 40).
 4. Verify every connection on the relevant switches using the command: `ovs-vsctl show`.
 
-![GNS 3 Canvas](images/12/gns3-canvas.png)
+<img src="images/12/gns3-canvas.png" width="600">
 
 ## Create users
 
@@ -57,7 +57,7 @@ You can use a CSV file and a PowerShell script to create these users in bulk.
 	./NewUsersImport.ps1
 	```
 
-	![IT users](images/12/it-users.png)
+	<img src="images/12/it-users.png" width="600">
 
 ## Join the PC to the domain
 
@@ -77,8 +77,8 @@ You can use a CSV file and a PowerShell script to create these users in bulk.
 1. On `DC-01`, open `dsa.msc` (Active Directory Users and Computers).
 2. You should see `IT-PC-001` listed in the **Computers** container.
 3. Move `IT-PC-001` to the appropriate OU: `HeadOffice/IT/Computers`.
-
-	![AD computers](images/12/ad-computers.png)
+	
+	<img src="images/12/ad-computers.png" width="600">
 
 ### Method 2: PowerShell (Example: IT-PC-002)
 
@@ -101,7 +101,8 @@ You can use a CSV file and a PowerShell script to create these users in bulk.
 #### Verification
 1.  On `DC-01`, open `dsa.msc` or Server Manager > Tools > Active Directory Users and Computers.
 2.  Verify that `IT-PC-002` is present in the `HeadOffice/IT/Computers` OU.
-	![](images/12/it-ad-computers.png)
+	
+	<img src="images/12/it-ad-computers.png" width="600">
 
 ## Resources and References
 - Active Directory: https://learn.microsoft.com/en-us/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview
