@@ -26,7 +26,12 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 | 12    | [Add Computers and Users to the Domain](12_add_pcs_users_to_domain.md)             | - Deploy Windows 10 Appliances.<br>- Create Users.<br>- Join PCs to the Domain.                                                                                                                                                                                    | Completed  |
 | 13    | [Add Security Groups in Active Directory](13_add_security_groups.md)               | - Create Security Groups.<br>- Add Users to Groups.                                                                                                                                                                                                                | Completed  |
 | 14    | [Create Basic GPOs](14_create_basic_gpos.md)                                       | - Password & Lockout Policies.<br>- Optimisation VM.                                                                                                                                                                                                               | Completed  |
+
 ## Failover tests
+
+| **#** | **Topic**                                | Objectives                                           | Status  |
+| ----- | ---------------------------------------- | ---------------------------------------------------- | ------- |
+| 1     | Primary Firewall and Core Switch failure | - Simulate a Failure.<br>- Validate HA Functionality | Planned |
 
 ## Repository Structure
 
@@ -40,6 +45,9 @@ Initially, I aim to create a small office with reliable core infrastructure and 
 
 ## Contact
 
+Please feel free to reach out directly for any inquiries, questions, or suggestions.
+
+[jevgeni@vakker.pro](mailto:jevgeni@vakker.pro)
 
 ## License
 
