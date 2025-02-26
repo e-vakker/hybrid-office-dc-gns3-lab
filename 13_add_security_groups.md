@@ -65,9 +65,9 @@ We will assign users to various groups with different methods:
 
 <img src="images/13/ad-staff-properties.png" width="600">
 
-<img src="images/13/staff-properties-members.png" width="600">
+<img src="images/13/staff-properties-members.png" width="400">
 
-<img src="images/13/properties-members-enter-the-object.png" width="600">
+<img src="images/13/properties-members-enter-the-object.png" width="400">
 
 ### GUI (Adding a User to Groups via User Properties)
 1. Open `dsa.msc`.
@@ -79,7 +79,7 @@ We will assign users to various groups with different methods:
 7. Click **Check Names**.
 8. Click **OK**.
 
-<img src="images/13/alice-white-properties.png" width="600">
+<img src="images/13/alice-white-properties.png" width="400">
 
 ### PowerShell Method
 
