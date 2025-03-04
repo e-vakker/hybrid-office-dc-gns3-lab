@@ -1,4 +1,4 @@
-# Hybrid Office Data Center GNS3 Lab
+# Virtual Office & Infrastructure Lab
 
 I have created a GNS3 lab to develop and enhance my system administration skills. My approach is to start with a foundational setup and gradually integrate more advanced technologies.
 
